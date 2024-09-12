@@ -7,5 +7,5 @@ else
     ARG1=$1
     ARG2=$2
     echo "building"
-    sudo docker build -f $ARG1 -t $ARG2 ."
+    sudo docker build -f $ARG1 -t $ARG2 .
 fi
