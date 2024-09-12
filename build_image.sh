@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ "$#" -ne 2 ]]; then
-    echo "Usage: <arg1> <arg2>"
+    echo "usage: <dockerfile> <image name>"
     exit 1
 else
     ARG1=$1
